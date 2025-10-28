@@ -1,15 +1,29 @@
 # Docker Container Updater
 
+---
+
+## ⚠️ Important Notice: Project Successor
+
+**This project is no longer actively maintained.**
+
+I have decided to undertake an extensive rewrite of this entire project. The result is **[captn](https://github.com/captn-io/captn)** – a significant evolution featuring a completely new rule management system.
+
+**Why the change?**
+- **Future-proof**: Written in Python for better maintainability and extensibility
+- **Modular architecture**: More flexible and easier to extend
+- **Enhanced rule management**: Complete redesign for more powerful update control
+
+I ask for your understanding regarding this drastic step and hope that **captn** will serve as a worthy successor to this project.
+
+➡️ **Please visit [captn](https://github.com/captn-io/captn) for the actively maintained version.**
+
+---
+
+<br>
+
+## About Docker Container Updater
+
 For all the lazier and automation-loving nerds, constantly updating Docker containers can be a tedious chore. Enter the Docker Container Updater to save the day. It handles updates without relying on the "latest" tag or sticking to the current image tag, which might cause you to miss important updates. Instead, it plays by your rules!
-
-<br>
-<br>
-
----
-
-🌱 This project is currently in its early stages, and any feedback on potential issues would be greatly appreciated.
-
----
 
 <br>
 <br>
