@@ -6,27 +6,33 @@
 
 <div align="center">
 
-> [!IMPORTANT]
->
-> <img src="https://raw.githubusercontent.com/captn-io/captn/main/app/assets/icons/app-icon.svg" alt="captn Logo" width="120"/>
->
-> ## ⚠️ Project Successor: captn
->
-> **This project is no longer actively maintained.**
->
-> 🔒 **This repository was archived on October 29, 2025 and is now read-only.**
->
-> I have decided to undertake an extensive rewrite of this entire project. The result is **[captn](https://github.com/captn-io/captn)** – a significant evolution featuring a completely new rule management system.
->
-> ### Why the change?
->
-> 🚀 **Future-proof**: Written in Python for better maintainability and extensibility
-> 🧩 **Modular architecture**: More flexible and easier to extend
-> ⚙️ **Enhanced rule management**: Complete redesign for more powerful update control
->
-> I ask for your understanding regarding this drastic step and hope that **captn** will serve as a worthy successor to this project.
->
-> ### ➡️ **[Visit captn](https://github.com/captn-io/captn)**
+<table>
+<tr>
+<td align="center" style="border: 2px solid #ffa500; background-color:rgb(80, 60, 0); color: white; padding: 20px; border-radius: 10px;">
+
+<img src="https://raw.githubusercontent.com/captn-io/captn/main/app/assets/icons/app-icon.svg" alt="captn Logo" width="120"/>
+
+## ⚠️ Project Successor: captn
+
+**This project is no longer actively maintained.**
+
+🔒 **This repository was archived on October 29, 2025 and is now read-only.**
+
+I have decided to undertake an extensive rewrite of this entire project. The result is **[captn](https://github.com/captn-io/captn)** – a significant evolution featuring a completely new rule management system.
+
+### Why the change?
+
+🚀 **Future-proof**: Written in Python for better maintainability and extensibility  
+🧩 **Modular architecture**: More flexible and easier to extend  
+⚙️ **Enhanced rule management**: Complete redesign for more powerful update control
+
+I ask for your understanding regarding this drastic step and hope that **captn** will serve as a worthy successor to this project.
+
+### ➡️ **[Visit captn](https://github.com/captn-io/captn)**
+
+</td>
+</tr>
+</table>
 
 </div>
 
