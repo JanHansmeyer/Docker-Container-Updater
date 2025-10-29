@@ -1,21 +1,34 @@
-# Docker Container Updater
+<div align="center">
+  <h1>Docker Container Updater</h1>
+</div>
 
 ---
 
-## ⚠️ Important Notice: Project Successor
+<div align="center">
 
-**This project is no longer actively maintained.**
+> [!IMPORTANT]
+>
+> <img src="https://raw.githubusercontent.com/captn-io/captn/main/app/assets/icons/app-icon.svg" alt="captn Logo" width="120"/>
+>
+> ## ⚠️ Project Successor: captn
+>
+> **This project is no longer actively maintained.**
+>
+> 🔒 **This repository was archived on October 29, 2025 and is now read-only.**
+>
+> I have decided to undertake an extensive rewrite of this entire project. The result is **[captn](https://github.com/captn-io/captn)** – a significant evolution featuring a completely new rule management system.
+>
+> ### Why the change?
+>
+> 🚀 **Future-proof**: Written in Python for better maintainability and extensibility
+> 🧩 **Modular architecture**: More flexible and easier to extend
+> ⚙️ **Enhanced rule management**: Complete redesign for more powerful update control
+>
+> I ask for your understanding regarding this drastic step and hope that **captn** will serve as a worthy successor to this project.
+>
+> ### ➡️ **[Visit captn](https://github.com/captn-io/captn)**
 
-I have decided to undertake an extensive rewrite of this entire project. The result is **[captn](https://github.com/captn-io/captn)** – a significant evolution featuring a completely new rule management system.
-
-**Why the change?**
-- **Future-proof**: Written in Python for better maintainability and extensibility
-- **Modular architecture**: More flexible and easier to extend
-- **Enhanced rule management**: Complete redesign for more powerful update control
-
-I ask for your understanding regarding this drastic step and hope that **captn** will serve as a worthy successor to this project.
-
-➡️ **Please visit [captn](https://github.com/captn-io/captn) for the actively maintained version.**
+</div>
 
 ---
 
@@ -77,13 +90,13 @@ docker run  -d \
 > <br>
 > <br>
 > The `--privileged` flag is needed to grant the Docker container elevated permissions on the host system. This flag provides the container with extended capabilities, allowing it to perform tasks that require higher levels of access to the host’s resources and hardware. Specifically, it:
-> 
+>
 > 1. **Gives the container access to all resources** on the host, similar to the root user.
 > 2. **Allows the container to modify kernel parameters** using sysctl or sysfs.
 > 3. **Grants the container additional capabilities** that are typically restricted for security reasons.
-> 
+>
 > Using the `--privileged` flag is essential for certain operations that involve deep integration with the host system, such as managing network configurations, mounting filesystems, or interacting with hardware devices directly.
-> 
+>
 >`Docker Container Updater` relies on these extended permissions to perform its intended tasks effectively.
 
 ##### Data Persistence
@@ -111,7 +124,7 @@ If you have already disabled test mode in your configuration, you can enforce us
 ```
 docker exec -it Docker-Container-Updater dcu --dry-run
 ```
-   
+
 ### Method 2: Run this script directly on your host
 
 1. On your Docker host, navigate to the directory where the script `dcu.sh` should be downloaded
@@ -304,7 +317,7 @@ To give you more control, you can integrate your own pre- and post-scripts. Thes
 7. If the new container was successfully started, the **post-script** is now executed.
 
 > ℹ️ A little tip if you are using `Docker Container Updater` as a container:
-> 
+>
 > To gain full access to the directories of individual Docker containers, you may need to mount additional directories into `Docker Container Updater`. There are various approaches to this, which vary depending on the system your architecture/design. Decide for yourself what works best for you.
 
 ## Command Line Parameters
